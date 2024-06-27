@@ -19,3 +19,7 @@ app.get('/api/data',(req,res)=>{
 app.get('/api/user',(req,res)=>{
     res.join({user:{name:'Roy',age:20}})
 });
+
+app.listen(port,()=>{
+    console.log('http://localhost:3000')
+})
